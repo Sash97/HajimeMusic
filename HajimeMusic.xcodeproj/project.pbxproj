@@ -3,27 +3,141 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0303FC24F7F626009392ED /* ABTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0303FB24F7F626009392ED /* ABTimer.swift */; };
+		1C0303FF24F8667A009392ED /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0303FE24F8667A009392ED /* String + Extension.swift */; };
+		1C03040224F86F96009392ED /* ABSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C03040124F86F96009392ED /* ABSlider.swift */; };
+		1C1A13AE250678B500488CC9 /* Kadi - Aстрал.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C1A13AD250678B500488CC9 /* Kadi - Aстрал.mp3 */; };
+		1C1A13B0250678F200488CC9 /* TumaniYO - Rainy Day (feat. Hloy).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C1A13AF250678F200488CC9 /* TumaniYO - Rainy Day (feat. Hloy).mp3 */; };
+		1C1A13B22506799100488CC9 /* Andy Panda, Castle - I Wanna Feel The Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C1A13B12506799100488CC9 /* Andy Panda, Castle - I Wanna Feel The Love.mp3 */; };
+		1C1A13B425067A5200488CC9 /* Ollane - Lala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C1A13B325067A5200488CC9 /* Ollane - Lala.mp3 */; };
+		1C1A13B925067E3900488CC9 /* Home + Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A13B825067E3900488CC9 /* Home + Delegate.swift */; };
+		1C1A13BB25067E4300488CC9 /* Home + DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A13BA25067E4300488CC9 /* Home + DataSource.swift */; };
+		1C28EA5D24FD128700A66D25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C28EA5C24FD128600A66D25 /* GoogleService-Info.plist */; };
+		1C2C619A24F28114003814A3 /* View + Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C619924F28114003814A3 /* View + Animate.swift */; };
+		1C2C619F24F288A0003814A3 /* ABNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C619E24F288A0003814A3 /* ABNavBarView.swift */; };
+		1C2C61A124F288BC003814A3 /* ABNavBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2C61A024F288BC003814A3 /* ABNavBarView.xib */; };
+		1C2C61A424F288E4003814A3 /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C61A324F288E4003814A3 /* Nib.swift */; };
+		1C2C61A724F29D35003814A3 /* Color + RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2C61A624F29D35003814A3 /* Color + RGB.swift */; };
 		1C35305A24E40BD500B33B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35305924E40BD500B33B43 /* AppDelegate.swift */; };
 		1C35305C24E40BD500B33B43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35305B24E40BD500B33B43 /* SceneDelegate.swift */; };
-		1C35305E24E40BD500B33B43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35305D24E40BD500B33B43 /* ViewController.swift */; };
 		1C35306124E40BD500B33B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C35305F24E40BD500B33B43 /* Main.storyboard */; };
 		1C35306324E40BD600B33B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C35306224E40BD600B33B43 /* Assets.xcassets */; };
 		1C35306624E40BD600B33B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C35306424E40BD600B33B43 /* LaunchScreen.storyboard */; };
+		1C35307124E40FCF00B33B43 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35307024E40FCF00B33B43 /* ContainerController.swift */; };
+		1C35307324E4102300B33B43 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35307224E4102300B33B43 /* MenuController.swift */; };
+		1C35307524E4103500B33B43 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35307424E4103500B33B43 /* HomeController.swift */; };
+		1C35307B24E4110C00B33B43 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35307A24E4110C00B33B43 /* BaseCoordinator.swift */; };
+		1C35307D24E4111400B33B43 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35307C24E4111400B33B43 /* MainCoordinator.swift */; };
+		1C35308024E411A300B33B43 /* ContainerSceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35307F24E411A300B33B43 /* ContainerSceneBuilder.swift */; };
+		1C35308324E4127900B33B43 /* ContainerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35308224E4127900B33B43 /* ContainerCoordinator.swift */; };
+		1C35308624E4173C00B33B43 /* NotificationName + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35308524E4173C00B33B43 /* NotificationName + Extension.swift */; };
+		1C35308A24E418DF00B33B43 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35308924E418DF00B33B43 /* Controller.swift */; };
+		1C35308D24E4197600B33B43 /* Storyboard + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35308C24E4197600B33B43 /* Storyboard + Extension.swift */; };
+		1C35308F24E4199B00B33B43 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35308E24E4199B00B33B43 /* Storyboard.swift */; };
+		1C35309124E4400800B33B43 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35309024E4400800B33B43 /* SFSymbols.swift */; };
+		1C35309424E5DD3500B33B43 /* View + Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35309324E5DD3500B33B43 /* View + Gradient.swift */; };
+		1C35309724E5DF8100B33B43 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35309624E5DF8100B33B43 /* HomeCoordinator.swift */; };
+		1C35309A24E5ED1400B33B43 /* ABNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35309924E5ED1400B33B43 /* ABNavController.swift */; };
+		1C61397C24F94154005CE7F0 /* MiyaGi & Andy Panda - Kosandra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C61397924F94153005CE7F0 /* MiyaGi & Andy Panda - Kosandra.mp3 */; };
+		1C61397D24F94154005CE7F0 /* MiyaGi & Andy Panda - Minor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C61397A24F94154005CE7F0 /* MiyaGi & Andy Panda - Minor.mp3 */; };
+		1C61397E24F94154005CE7F0 /* MiyaGi feat. Andy Panda - Utopia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C61397B24F94154005CE7F0 /* MiyaGi feat. Andy Panda - Utopia.mp3 */; };
+		1C71319E24EDC5B200A41779 /* ViewController + Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71319D24EDC5B200A41779 /* ViewController + Window.swift */; };
+		1C725D7F24F7107F0087A2ED /* Miyagi - Bismark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C725D7824F7107D0087A2ED /* Miyagi - Bismark.mp3 */; };
+		1C725D8024F7107F0087A2ED /* MiyaGi & Andy Panda - Medicine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C725D7924F7107D0087A2ED /* MiyaGi & Andy Panda - Medicine.mp3 */; };
+		1C725D8124F7107F0087A2ED /* Miyagi - Captain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C725D7A24F7107E0087A2ED /* Miyagi - Captain.mp3 */; };
+		1C725D8224F7107F0087A2ED /* MiyaGi - Самурай.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C725D7B24F7107E0087A2ED /* MiyaGi - Самурай.mp3 */; };
+		1C725D8324F7107F0087A2ED /* Miyagi - Sorry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C725D7C24F7107E0087A2ED /* Miyagi - Sorry.mp3 */; };
+		1C725D8424F7107F0087A2ED /* MiyaGi Скриптонит feat. 104 - Не Жаль.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C725D7D24F7107F0087A2ED /* MiyaGi Скриптонит feat. 104 - Не Жаль.mp3 */; };
+		1C725D8524F7107F0087A2ED /* Miyagi, Andy Panda - Психопатия.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C725D7E24F7107F0087A2ED /* Miyagi, Andy Panda - Психопатия.mp3 */; };
+		1C725D8824F711E60087A2ED /* ABAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C725D8724F711E60087A2ED /* ABAudioPlayer.swift */; };
+		1C725D8A24F712B10087A2ED /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C725D8924F712B10087A2ED /* Audio.swift */; };
+		1C725D8C24F714550087A2ED /* LabelImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C725D8B24F714550087A2ED /* LabelImages.xcassets */; };
+		1C89763224E6B9A8005415C3 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89763124E6B9A8005415C3 /* PlayerController.swift */; };
+		1C899F3E24ED3C380004CD37 /* AristsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C899F3D24ED3C380004CD37 /* AristsCell.swift */; };
+		1C899F4124ED3D5C0004CD37 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C899F4024ED3D5C0004CD37 /* Cell.swift */; };
+		1C899F4424ED573A0004CD37 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C899F4324ED573A0004CD37 /* Artist.swift */; };
+		1C8AE4AE24FD24D6001237B6 /* FIRFirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8AE4AD24FD24D6001237B6 /* FIRFirestoreService.swift */; };
+		1C8F229824F1C933003FECDB /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F229724F1C933003FECDB /* MusicView.swift */; };
+		1C8F229C24F1D0D9003FECDB /* View + Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F229B24F1D0D9003FECDB /* View + Layout.swift */; };
+		1C8F229E24F1D7D2003FECDB /* MusicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F229D24F1D7D2003FECDB /* MusicViewCell.xib */; };
+		1C9CFEA824EC7D0000CFA854 /* View + Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CFEA724EC7D0000CFA854 /* View + Shadow.swift */; };
+		1CC962AF24F00C3A00186289 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC962AE24F00C3A00186289 /* PlaylistView.swift */; };
+		1CC962B124F00C5600186289 /* PlaylistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC962B024F00C5600186289 /* PlaylistView.xib */; };
+		1CFA210124EDC13000EEBB2F /* Expandable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA210024EDC13000EEBB2F /* Expandable.swift */; };
+		64A36DB612B023C78684541A /* Pods_HajimeMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD822DD1C67020C427433A49 /* Pods_HajimeMusic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A9F2BB072823EC47A7BB3A7 /* Pods-HajimeMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HajimeMusic.release.xcconfig"; path = "Target Support Files/Pods-HajimeMusic/Pods-HajimeMusic.release.xcconfig"; sourceTree = "<group>"; };
+		1C0303FB24F7F626009392ED /* ABTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTimer.swift; sourceTree = "<group>"; };
+		1C0303FE24F8667A009392ED /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		1C03040124F86F96009392ED /* ABSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABSlider.swift; sourceTree = "<group>"; };
+		1C1A13AD250678B500488CC9 /* Kadi - Aстрал.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kadi - Aстрал.mp3"; sourceTree = "<group>"; };
+		1C1A13AF250678F200488CC9 /* TumaniYO - Rainy Day (feat. Hloy).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TumaniYO - Rainy Day (feat. Hloy).mp3"; sourceTree = "<group>"; };
+		1C1A13B12506799100488CC9 /* Andy Panda, Castle - I Wanna Feel The Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Andy Panda, Castle - I Wanna Feel The Love.mp3"; sourceTree = "<group>"; };
+		1C1A13B325067A5200488CC9 /* Ollane - Lala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ollane - Lala.mp3"; sourceTree = "<group>"; };
+		1C1A13B825067E3900488CC9 /* Home + Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home + Delegate.swift"; sourceTree = "<group>"; };
+		1C1A13BA25067E4300488CC9 /* Home + DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home + DataSource.swift"; sourceTree = "<group>"; };
+		1C28EA5C24FD128600A66D25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C2C619924F28114003814A3 /* View + Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Animate.swift"; sourceTree = "<group>"; };
+		1C2C619E24F288A0003814A3 /* ABNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABNavBarView.swift; sourceTree = "<group>"; };
+		1C2C61A024F288BC003814A3 /* ABNavBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ABNavBarView.xib; sourceTree = "<group>"; };
+		1C2C61A324F288E4003814A3 /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
+		1C2C61A624F29D35003814A3 /* Color + RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + RGB.swift"; sourceTree = "<group>"; };
 		1C35305624E40BD500B33B43 /* HajimeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HajimeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C35305924E40BD500B33B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C35305B24E40BD500B33B43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C35305D24E40BD500B33B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C35306024E40BD500B33B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C35306224E40BD600B33B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C35306524E40BD600B33B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C35306724E40BD600B33B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C35307024E40FCF00B33B43 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		1C35307224E4102300B33B43 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		1C35307424E4103500B33B43 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		1C35307A24E4110C00B33B43 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		1C35307C24E4111400B33B43 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		1C35307F24E411A300B33B43 /* ContainerSceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerSceneBuilder.swift; sourceTree = "<group>"; };
+		1C35308224E4127900B33B43 /* ContainerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerCoordinator.swift; sourceTree = "<group>"; };
+		1C35308524E4173C00B33B43 /* NotificationName + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationName + Extension.swift"; sourceTree = "<group>"; };
+		1C35308924E418DF00B33B43 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		1C35308C24E4197600B33B43 /* Storyboard + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard + Extension.swift"; sourceTree = "<group>"; };
+		1C35308E24E4199B00B33B43 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		1C35309024E4400800B33B43 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		1C35309324E5DD3500B33B43 /* View + Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Gradient.swift"; sourceTree = "<group>"; };
+		1C35309624E5DF8100B33B43 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		1C35309924E5ED1400B33B43 /* ABNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABNavController.swift; sourceTree = "<group>"; };
+		1C61397924F94153005CE7F0 /* MiyaGi & Andy Panda - Kosandra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MiyaGi & Andy Panda - Kosandra.mp3"; sourceTree = "<group>"; };
+		1C61397A24F94154005CE7F0 /* MiyaGi & Andy Panda - Minor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MiyaGi & Andy Panda - Minor.mp3"; sourceTree = "<group>"; };
+		1C61397B24F94154005CE7F0 /* MiyaGi feat. Andy Panda - Utopia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MiyaGi feat. Andy Panda - Utopia.mp3"; sourceTree = "<group>"; };
+		1C71319D24EDC5B200A41779 /* ViewController + Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + Window.swift"; sourceTree = "<group>"; };
+		1C725D7824F7107D0087A2ED /* Miyagi - Bismark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Miyagi - Bismark.mp3"; sourceTree = "<group>"; };
+		1C725D7924F7107D0087A2ED /* MiyaGi & Andy Panda - Medicine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MiyaGi & Andy Panda - Medicine.mp3"; sourceTree = "<group>"; };
+		1C725D7A24F7107E0087A2ED /* Miyagi - Captain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Miyagi - Captain.mp3"; sourceTree = "<group>"; };
+		1C725D7B24F7107E0087A2ED /* MiyaGi - Самурай.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "MiyaGi - Самурай.mp3"; path = "../MiyaGi - Самурай.mp3"; sourceTree = "<group>"; };
+		1C725D7C24F7107E0087A2ED /* Miyagi - Sorry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Miyagi - Sorry.mp3"; sourceTree = "<group>"; };
+		1C725D7D24F7107F0087A2ED /* MiyaGi Скриптонит feat. 104 - Не Жаль.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MiyaGi Скриптонит feat. 104 - Не Жаль.mp3"; sourceTree = "<group>"; };
+		1C725D7E24F7107F0087A2ED /* Miyagi, Andy Panda - Психопатия.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Miyagi, Andy Panda - Психопатия.mp3"; sourceTree = "<group>"; };
+		1C725D8724F711E60087A2ED /* ABAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABAudioPlayer.swift; sourceTree = "<group>"; };
+		1C725D8924F712B10087A2ED /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		1C725D8B24F714550087A2ED /* LabelImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LabelImages.xcassets; sourceTree = "<group>"; };
+		1C89763124E6B9A8005415C3 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		1C899F3D24ED3C380004CD37 /* AristsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AristsCell.swift; sourceTree = "<group>"; };
+		1C899F4024ED3D5C0004CD37 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		1C899F4324ED573A0004CD37 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		1C8AE4AD24FD24D6001237B6 /* FIRFirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRFirestoreService.swift; sourceTree = "<group>"; };
+		1C8F229724F1C933003FECDB /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		1C8F229B24F1D0D9003FECDB /* View + Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Layout.swift"; sourceTree = "<group>"; };
+		1C8F229D24F1D7D2003FECDB /* MusicViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicViewCell.xib; sourceTree = "<group>"; };
+		1C9CFEA724EC7D0000CFA854 /* View + Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Shadow.swift"; sourceTree = "<group>"; };
+		1CC962AE24F00C3A00186289 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		1CC962B024F00C5600186289 /* PlaylistView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistView.xib; sourceTree = "<group>"; };
+		1CFA210024EDC13000EEBB2F /* Expandable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expandable.swift; sourceTree = "<group>"; };
+		7D2318F3131EC839808DA0E0 /* Pods-HajimeMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HajimeMusic.debug.xcconfig"; path = "Target Support Files/Pods-HajimeMusic/Pods-HajimeMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		CD822DD1C67020C427433A49 /* Pods_HajimeMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HajimeMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +145,133 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A36DB612B023C78684541A /* Pods_HajimeMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0303FD24F86644009392ED /* String + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C0303FE24F8667A009392ED /* String + Extension.swift */,
+			);
+			path = "String + Extension";
+			sourceTree = "<group>";
+		};
+		1C03040024F86F8B009392ED /* ABSlider */ = {
+			isa = PBXGroup;
+			children = (
+				1C03040124F86F96009392ED /* ABSlider.swift */,
+			);
+			path = ABSlider;
+			sourceTree = "<group>";
+		};
+		1C1A13A42506762C00488CC9 /* Tumaniyo */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A13AF250678F200488CC9 /* TumaniYO - Rainy Day (feat. Hloy).mp3 */,
+			);
+			path = Tumaniyo;
+			sourceTree = "<group>";
+		};
+		1C1A13A52506763100488CC9 /* KADI */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A13AD250678B500488CC9 /* Kadi - Aстрал.mp3 */,
+			);
+			path = KADI;
+			sourceTree = "<group>";
+		};
+		1C1A13A62506763400488CC9 /* Hloy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hloy;
+			sourceTree = "<group>";
+		};
+		1C1A13A72506763900488CC9 /* Castle */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A13B12506799100488CC9 /* Andy Panda, Castle - I Wanna Feel The Love.mp3 */,
+			);
+			path = Castle;
+			sourceTree = "<group>";
+		};
+		1C1A13A82506763E00488CC9 /* Ollane */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A13B325067A5200488CC9 /* Ollane - Lala.mp3 */,
+			);
+			path = Ollane;
+			sourceTree = "<group>";
+		};
+		1C1A13B525067E1B00488CC9 /* HomeViewController + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A13B725067E2E00488CC9 /* Home + Delegate */,
+				1C1A13B625067E2600488CC9 /* Home + DataSource */,
+			);
+			path = "HomeViewController + Extension";
+			sourceTree = "<group>";
+		};
+		1C1A13B625067E2600488CC9 /* Home + DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A13BA25067E4300488CC9 /* Home + DataSource.swift */,
+			);
+			path = "Home + DataSource";
+			sourceTree = "<group>";
+		};
+		1C1A13B725067E2E00488CC9 /* Home + Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A13B825067E3900488CC9 /* Home + Delegate.swift */,
+			);
+			path = "Home + Delegate";
+			sourceTree = "<group>";
+		};
+		1C2C619B24F2887B003814A3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1C2C619C24F2887F003814A3 /* ArtistsCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1C2C619C24F2887F003814A3 /* ArtistsCell */ = {
+			isa = PBXGroup;
+			children = (
+				1C899F3D24ED3C380004CD37 /* AristsCell.swift */,
+			);
+			path = ArtistsCell;
+			sourceTree = "<group>";
+		};
+		1C2C619D24F2888F003814A3 /* ABNavBarView */ = {
+			isa = PBXGroup;
+			children = (
+				1C2C619E24F288A0003814A3 /* ABNavBarView.swift */,
+				1C2C61A024F288BC003814A3 /* ABNavBarView.xib */,
+			);
+			path = ABNavBarView;
+			sourceTree = "<group>";
+		};
+		1C2C61A524F29D00003814A3 /* Color + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C2C61A624F29D35003814A3 /* Color + RGB.swift */,
+			);
+			path = "Color + Extension";
+			sourceTree = "<group>";
+		};
 		1C35304D24E40BD500B33B43 = {
 			isa = PBXGroup;
 			children = (
 				1C35305824E40BD500B33B43 /* HajimeMusic */,
 				1C35305724E40BD500B33B43 /* Products */,
+				C83B5C0F76A742A7E040DB68 /* Pods */,
+				9D4B110ED7F532FDC05BC759 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +286,310 @@
 		1C35305824E40BD500B33B43 /* HajimeMusic */ = {
 			isa = PBXGroup;
 			children = (
-				1C35305924E40BD500B33B43 /* AppDelegate.swift */,
-				1C35305B24E40BD500B33B43 /* SceneDelegate.swift */,
-				1C35305D24E40BD500B33B43 /* ViewController.swift */,
-				1C35305F24E40BD500B33B43 /* Main.storyboard */,
-				1C35306224E40BD600B33B43 /* Assets.xcassets */,
-				1C35306424E40BD600B33B43 /* LaunchScreen.storyboard */,
+				1C8AE4AA24FD24B6001237B6 /* Managers */,
+				1C725D8624F711DC0087A2ED /* Services */,
+				1C725D7724F710650087A2ED /* Music */,
+				1CFA20FF24EDC12200EEBB2F /* Protocols */,
+				1C35307724E4107500B33B43 /* Coordinator */,
+				1C35307624E4107000B33B43 /* Builder */,
+				1C899F4224ED572D0004CD37 /* Model */,
+				1C899F3C24ED3C260004CD37 /* Views */,
+				1C35306F24E40C1100B33B43 /* Controllers */,
+				1C35306E24E40C0400B33B43 /* Storyboards */,
+				1C35306D24E40BEF00B33B43 /* Supporting */,
+				1C35308824E418D200B33B43 /* Resources */,
+				1C35308424E416FC00B33B43 /* Extension */,
 				1C35306724E40BD600B33B43 /* Info.plist */,
+				1C28EA5C24FD128600A66D25 /* GoogleService-Info.plist */,
 			);
 			path = HajimeMusic;
+			sourceTree = "<group>";
+		};
+		1C35306D24E40BEF00B33B43 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				1C35305924E40BD500B33B43 /* AppDelegate.swift */,
+				1C35305B24E40BD500B33B43 /* SceneDelegate.swift */,
+				1C35306224E40BD600B33B43 /* Assets.xcassets */,
+				1C725D8B24F714550087A2ED /* LabelImages.xcassets */,
+				1C35306424E40BD600B33B43 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		1C35306E24E40C0400B33B43 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1C35305F24E40BD500B33B43 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1C35306F24E40C1100B33B43 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C35309924E5ED1400B33B43 /* ABNavController.swift */,
+				1C35307024E40FCF00B33B43 /* ContainerController.swift */,
+				1C35307224E4102300B33B43 /* MenuController.swift */,
+				1C35307424E4103500B33B43 /* HomeController.swift */,
+				1C89763124E6B9A8005415C3 /* PlayerController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1C35307624E4107000B33B43 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1C35307E24E4118800B33B43 /* ContainerSceneBuilder */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		1C35307724E4107500B33B43 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1C35307824E410F500B33B43 /* BaseCoordinator */,
+				1C35307924E410F900B33B43 /* MainCoordinator */,
+				1C35308124E4126900B33B43 /* ContainerCoordinator */,
+				1C35309524E5DEDF00B33B43 /* HomeCoordinator */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1C35307824E410F500B33B43 /* BaseCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1C35307A24E4110C00B33B43 /* BaseCoordinator.swift */,
+			);
+			path = BaseCoordinator;
+			sourceTree = "<group>";
+		};
+		1C35307924E410F900B33B43 /* MainCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1C35307C24E4111400B33B43 /* MainCoordinator.swift */,
+			);
+			path = MainCoordinator;
+			sourceTree = "<group>";
+		};
+		1C35307E24E4118800B33B43 /* ContainerSceneBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				1C35307F24E411A300B33B43 /* ContainerSceneBuilder.swift */,
+			);
+			path = ContainerSceneBuilder;
+			sourceTree = "<group>";
+		};
+		1C35308124E4126900B33B43 /* ContainerCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1C35308224E4127900B33B43 /* ContainerCoordinator.swift */,
+			);
+			path = ContainerCoordinator;
+			sourceTree = "<group>";
+		};
+		1C35308424E416FC00B33B43 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A13B525067E1B00488CC9 /* HomeViewController + Extension */,
+				1C0303FD24F86644009392ED /* String + Extension */,
+				1C2C61A524F29D00003814A3 /* Color + Extension */,
+				1C71319C24EDC5A100A41779 /* ViewController + Extnesion */,
+				1C35309224E5DD2400B33B43 /* View + Extension */,
+				1C35308B24E4196400B33B43 /* Storyboard + Extension */,
+				1C35308724E4173E00B33B43 /* Notification + Extension */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1C35308724E4173E00B33B43 /* Notification + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C35308524E4173C00B33B43 /* NotificationName + Extension.swift */,
+			);
+			path = "Notification + Extension";
+			sourceTree = "<group>";
+		};
+		1C35308824E418D200B33B43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C2C61A324F288E4003814A3 /* Nib.swift */,
+				1C899F4024ED3D5C0004CD37 /* Cell.swift */,
+				1C35308924E418DF00B33B43 /* Controller.swift */,
+				1C35308E24E4199B00B33B43 /* Storyboard.swift */,
+				1C35309024E4400800B33B43 /* SFSymbols.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1C35308B24E4196400B33B43 /* Storyboard + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C35308C24E4197600B33B43 /* Storyboard + Extension.swift */,
+			);
+			path = "Storyboard + Extension";
+			sourceTree = "<group>";
+		};
+		1C35309224E5DD2400B33B43 /* View + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C35309324E5DD3500B33B43 /* View + Gradient.swift */,
+				1C9CFEA724EC7D0000CFA854 /* View + Shadow.swift */,
+				1C8F229B24F1D0D9003FECDB /* View + Layout.swift */,
+				1C2C619924F28114003814A3 /* View + Animate.swift */,
+			);
+			path = "View + Extension";
+			sourceTree = "<group>";
+		};
+		1C35309524E5DEDF00B33B43 /* HomeCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1C35309624E5DF8100B33B43 /* HomeCoordinator.swift */,
+			);
+			path = HomeCoordinator;
+			sourceTree = "<group>";
+		};
+		1C61397724F9412C005CE7F0 /* Miyagi */ = {
+			isa = PBXGroup;
+			children = (
+				1C725D7B24F7107E0087A2ED /* MiyaGi - Самурай.mp3 */,
+				1C725D7824F7107D0087A2ED /* Miyagi - Bismark.mp3 */,
+				1C725D7A24F7107E0087A2ED /* Miyagi - Captain.mp3 */,
+				1C725D7C24F7107E0087A2ED /* Miyagi - Sorry.mp3 */,
+				1C725D7924F7107D0087A2ED /* MiyaGi & Andy Panda - Medicine.mp3 */,
+				1C725D7D24F7107F0087A2ED /* MiyaGi Скриптонит feat. 104 - Не Жаль.mp3 */,
+				1C725D7E24F7107F0087A2ED /* Miyagi, Andy Panda - Психопатия.mp3 */,
+			);
+			path = Miyagi;
+			sourceTree = "<group>";
+		};
+		1C61397824F9413B005CE7F0 /* AndyPanda */ = {
+			isa = PBXGroup;
+			children = (
+				1C61397924F94153005CE7F0 /* MiyaGi & Andy Panda - Kosandra.mp3 */,
+				1C61397A24F94154005CE7F0 /* MiyaGi & Andy Panda - Minor.mp3 */,
+				1C61397B24F94154005CE7F0 /* MiyaGi feat. Andy Panda - Utopia.mp3 */,
+			);
+			path = AndyPanda;
+			sourceTree = "<group>";
+		};
+		1C71319C24EDC5A100A41779 /* ViewController + Extnesion */ = {
+			isa = PBXGroup;
+			children = (
+				1C71319D24EDC5B200A41779 /* ViewController + Window.swift */,
+			);
+			path = "ViewController + Extnesion";
+			sourceTree = "<group>";
+		};
+		1C725D7724F710650087A2ED /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A13A82506763E00488CC9 /* Ollane */,
+				1C1A13A72506763900488CC9 /* Castle */,
+				1C1A13A62506763400488CC9 /* Hloy */,
+				1C1A13A52506763100488CC9 /* KADI */,
+				1C1A13A42506762C00488CC9 /* Tumaniyo */,
+				1C61397824F9413B005CE7F0 /* AndyPanda */,
+				1C61397724F9412C005CE7F0 /* Miyagi */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		1C725D8624F711DC0087A2ED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1C0303FB24F7F626009392ED /* ABTimer.swift */,
+				1C725D8724F711E60087A2ED /* ABAudioPlayer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1C899F3C24ED3C260004CD37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C03040024F86F8B009392ED /* ABSlider */,
+				1C2C619D24F2888F003814A3 /* ABNavBarView */,
+				1C2C619B24F2887B003814A3 /* Cells */,
+				1C8F229624F1C91D003FECDB /* MusicVIew */,
+				1CC962AB24F00BF900186289 /* PlaylistView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C899F4224ED572D0004CD37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C899F4324ED573A0004CD37 /* Artist.swift */,
+				1C725D8924F712B10087A2ED /* Audio.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C8AE4AA24FD24B6001237B6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1C8AE4AB24FD24B8001237B6 /* NetworkManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1C8AE4AB24FD24B8001237B6 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				1C8AE4AC24FD24BF001237B6 /* FIRFirestoreService */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		1C8AE4AC24FD24BF001237B6 /* FIRFirestoreService */ = {
+			isa = PBXGroup;
+			children = (
+				1C8AE4AD24FD24D6001237B6 /* FIRFirestoreService.swift */,
+			);
+			path = FIRFirestoreService;
+			sourceTree = "<group>";
+		};
+		1C8F229624F1C91D003FECDB /* MusicVIew */ = {
+			isa = PBXGroup;
+			children = (
+				1C8F229724F1C933003FECDB /* MusicView.swift */,
+				1C8F229D24F1D7D2003FECDB /* MusicViewCell.xib */,
+			);
+			path = MusicVIew;
+			sourceTree = "<group>";
+		};
+		1CC962AB24F00BF900186289 /* PlaylistView */ = {
+			isa = PBXGroup;
+			children = (
+				1CC962AE24F00C3A00186289 /* PlaylistView.swift */,
+				1CC962B024F00C5600186289 /* PlaylistView.xib */,
+			);
+			path = PlaylistView;
+			sourceTree = "<group>";
+		};
+		1CFA20FF24EDC12200EEBB2F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA210024EDC13000EEBB2F /* Expandable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9D4B110ED7F532FDC05BC759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD822DD1C67020C427433A49 /* Pods_HajimeMusic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C83B5C0F76A742A7E040DB68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D2318F3131EC839808DA0E0 /* Pods-HajimeMusic.debug.xcconfig */,
+				0A9F2BB072823EC47A7BB3A7 /* Pods-HajimeMusic.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +599,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C35306A24E40BD600B33B43 /* Build configuration list for PBXNativeTarget "HajimeMusic" */;
 			buildPhases = (
+				36EF40711818853AF609F633 /* [CP] Check Pods Manifest.lock */,
 				1C35305224E40BD500B33B43 /* Sources */,
 				1C35305324E40BD500B33B43 /* Frameworks */,
 				1C35305424E40BD500B33B43 /* Resources */,
+				05676740DC8DFDDC493FE4FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +652,119 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C28EA5D24FD128700A66D25 /* GoogleService-Info.plist in Resources */,
+				1C725D7F24F7107F0087A2ED /* Miyagi - Bismark.mp3 in Resources */,
+				1C61397E24F94154005CE7F0 /* MiyaGi feat. Andy Panda - Utopia.mp3 in Resources */,
+				1C1A13B0250678F200488CC9 /* TumaniYO - Rainy Day (feat. Hloy).mp3 in Resources */,
+				1C725D8224F7107F0087A2ED /* MiyaGi - Самурай.mp3 in Resources */,
 				1C35306624E40BD600B33B43 /* LaunchScreen.storyboard in Resources */,
 				1C35306324E40BD600B33B43 /* Assets.xcassets in Resources */,
+				1C1A13B425067A5200488CC9 /* Ollane - Lala.mp3 in Resources */,
+				1C725D8324F7107F0087A2ED /* Miyagi - Sorry.mp3 in Resources */,
+				1C8F229E24F1D7D2003FECDB /* MusicViewCell.xib in Resources */,
+				1C1A13AE250678B500488CC9 /* Kadi - Aстрал.mp3 in Resources */,
+				1CC962B124F00C5600186289 /* PlaylistView.xib in Resources */,
+				1C725D8524F7107F0087A2ED /* Miyagi, Andy Panda - Психопатия.mp3 in Resources */,
 				1C35306124E40BD500B33B43 /* Main.storyboard in Resources */,
+				1C1A13B22506799100488CC9 /* Andy Panda, Castle - I Wanna Feel The Love.mp3 in Resources */,
+				1C2C61A124F288BC003814A3 /* ABNavBarView.xib in Resources */,
+				1C725D8024F7107F0087A2ED /* MiyaGi & Andy Panda - Medicine.mp3 in Resources */,
+				1C725D8C24F714550087A2ED /* LabelImages.xcassets in Resources */,
+				1C61397D24F94154005CE7F0 /* MiyaGi & Andy Panda - Minor.mp3 in Resources */,
+				1C725D8124F7107F0087A2ED /* Miyagi - Captain.mp3 in Resources */,
+				1C61397C24F94154005CE7F0 /* MiyaGi & Andy Panda - Kosandra.mp3 in Resources */,
+				1C725D8424F7107F0087A2ED /* MiyaGi Скриптонит feat. 104 - Не Жаль.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05676740DC8DFDDC493FE4FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HajimeMusic/Pods-HajimeMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HajimeMusic/Pods-HajimeMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HajimeMusic/Pods-HajimeMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36EF40711818853AF609F633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HajimeMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1C35305224E40BD500B33B43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C35305E24E40BD500B33B43 /* ViewController.swift in Sources */,
+				1C35307324E4102300B33B43 /* MenuController.swift in Sources */,
+				1C2C61A424F288E4003814A3 /* Nib.swift in Sources */,
+				1C0303FF24F8667A009392ED /* String + Extension.swift in Sources */,
+				1C35307D24E4111400B33B43 /* MainCoordinator.swift in Sources */,
+				1C71319E24EDC5B200A41779 /* ViewController + Window.swift in Sources */,
+				1C8F229C24F1D0D9003FECDB /* View + Layout.swift in Sources */,
+				1C2C619A24F28114003814A3 /* View + Animate.swift in Sources */,
+				1C899F4124ED3D5C0004CD37 /* Cell.swift in Sources */,
+				1C2C619F24F288A0003814A3 /* ABNavBarView.swift in Sources */,
+				1C35308A24E418DF00B33B43 /* Controller.swift in Sources */,
+				1C35307B24E4110C00B33B43 /* BaseCoordinator.swift in Sources */,
+				1C35309A24E5ED1400B33B43 /* ABNavController.swift in Sources */,
+				1CFA210124EDC13000EEBB2F /* Expandable.swift in Sources */,
+				1C899F3E24ED3C380004CD37 /* AristsCell.swift in Sources */,
+				1CC962AF24F00C3A00186289 /* PlaylistView.swift in Sources */,
+				1C1A13B925067E3900488CC9 /* Home + Delegate.swift in Sources */,
+				1C8AE4AE24FD24D6001237B6 /* FIRFirestoreService.swift in Sources */,
+				1C03040224F86F96009392ED /* ABSlider.swift in Sources */,
+				1C35308F24E4199B00B33B43 /* Storyboard.swift in Sources */,
+				1C35308624E4173C00B33B43 /* NotificationName + Extension.swift in Sources */,
+				1C725D8824F711E60087A2ED /* ABAudioPlayer.swift in Sources */,
 				1C35305A24E40BD500B33B43 /* AppDelegate.swift in Sources */,
+				1C0303FC24F7F626009392ED /* ABTimer.swift in Sources */,
+				1C1A13BB25067E4300488CC9 /* Home + DataSource.swift in Sources */,
+				1C899F4424ED573A0004CD37 /* Artist.swift in Sources */,
 				1C35305C24E40BD500B33B43 /* SceneDelegate.swift in Sources */,
+				1C9CFEA824EC7D0000CFA854 /* View + Shadow.swift in Sources */,
+				1C35309124E4400800B33B43 /* SFSymbols.swift in Sources */,
+				1C35307124E40FCF00B33B43 /* ContainerController.swift in Sources */,
+				1C2C61A724F29D35003814A3 /* Color + RGB.swift in Sources */,
+				1C725D8A24F712B10087A2ED /* Audio.swift in Sources */,
+				1C89763224E6B9A8005415C3 /* PlayerController.swift in Sources */,
+				1C35308D24E4197600B33B43 /* Storyboard + Extension.swift in Sources */,
+				1C35308024E411A300B33B43 /* ContainerSceneBuilder.swift in Sources */,
+				1C35307524E4103500B33B43 /* HomeController.swift in Sources */,
+				1C8F229824F1C933003FECDB /* MusicView.swift in Sources */,
+				1C35309724E5DF8100B33B43 /* HomeCoordinator.swift in Sources */,
+				1C35309424E5DD3500B33B43 /* View + Gradient.swift in Sources */,
+				1C35308324E4127900B33B43 /* ContainerCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +906,13 @@
 		};
 		1C35306B24E40BD600B33B43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2318F3131EC839808DA0E0 /* Pods-HajimeMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K77529T3KG;
 				INFOPLIST_FILE = HajimeMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +920,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AB.HajimeMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1C35306C24E40BD600B33B43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9F2BB072823EC47A7BB3A7 /* Pods-HajimeMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K77529T3KG;
 				INFOPLIST_FILE = HajimeMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +940,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AB.HajimeMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
